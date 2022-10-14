@@ -33,7 +33,7 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <main className="flex flex-wrap justify-center gap-4">
+          <main className="mb-4 flex flex-wrap justify-center gap-4">
             {svgs.map(({ name, Svg }, i) => {
               const isClickable = CLICKABLE.includes(i + 1);
               return (

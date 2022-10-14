@@ -117,6 +117,12 @@ import Sunrays from "public/svgbattle/110.svg";
 import RainDrops from "public/svgbattle/111.svg";
 import Chevron from "public/svgbattle/112.svg";
 
+import BlackLight from "public/svgbattle/113.svg";
+import NegativeBox from "public/svgbattle/114.svg";
+
+import Droplet from "public/svgbattle/115.svg";
+import Headphones from "public/svgbattle/116.svg";
+
 export const svgs = [
   { name: "Simply Square", Svg: SimplySquare },
   { name: "Carrom", Svg: Carrom },
@@ -239,4 +245,9 @@ export const svgs = [
   { name: "Sunrays", Svg: Sunrays },
   { name: "Rain Drops", Svg: RainDrops },
   { name: "Chevron", Svg: Chevron },
+
+  { name: "Black Light", Svg: BlackLight },
+  { name: "Negative Box", Svg: NegativeBox },
+  { name: "Droplet", Svg: Droplet },
+  { name: "Headphones", Svg: Headphones },
 ];
