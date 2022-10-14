@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       />
       <div className="flex justify-center">
         <div>
-          <div className="mt-32 mb-8 flex justify-center">
+          <div className="mt-32 mb-12 flex justify-center">
             <div>
               <h1 className="text-xl ">CSSbattles written in svg</h1>
               <p>
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <main className="grid grid-cols-4 gap-4">
+          <main className="flex flex-wrap justify-center gap-4">
             {svgs.map(({ name, Svg }, i) => {
               const isClickable = CLICKABLE.includes(i + 1);
               return (
