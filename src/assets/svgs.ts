@@ -119,9 +119,19 @@ import Chevron from "public/svgbattle/112.svg";
 
 import BlackLight from "public/svgbattle/113.svg";
 import NegativeBox from "public/svgbattle/114.svg";
-
 import Droplet from "public/svgbattle/115.svg";
 import Headphones from "public/svgbattle/116.svg";
+
+import Arineo from "public/svgbattle/117.svg";
+import DonkeyKong from "public/svgbattle/118.svg";
+import Pacman from "public/svgbattle/119.svg";
+import Tank from "public/svgbattle/120.svg";
+import DuckHunt from "public/svgbattle/121.svg";
+import Tetris from "public/svgbattle/122.svg";
+import Snake from "public/svgbattle/123.svg";
+import SpaceInvaders from "public/svgbattle/124.svg";
+
+import RootLearn from "public/svgbattle/125.svg";
 
 export const svgs = [
   { name: "Simply Square", Svg: SimplySquare },
@@ -250,4 +260,14 @@ export const svgs = [
   { name: "Negative Box", Svg: NegativeBox },
   { name: "Droplet", Svg: Droplet },
   { name: "Headphones", Svg: Headphones },
+
+  { name: "Arineo", Svg: Arineo },
+  { name: "Donkey Kong", Svg: DonkeyKong },
+  { name: "Pacman", Svg: Pacman },
+  { name: "Tank", Svg: Tank },
+  { name: "Duck Hunt", Svg: DuckHunt },
+  { name: "Tetris", Svg: Tetris },
+  { name: "Snake", Svg: Snake },
+  { name: "Space Invaders", Svg: SpaceInvaders },
+  //{ name: "Root Learn", Svg: RootLearn },
 ];

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect fill="#FFFFFF" width="100%" height="100%"/> 
+<!-- 
+#0088CA
+#2E2926
+ -->
+<clipPath id="svg_arineo_clippath">
+  <path d="M 0 60 L 0 250 H 400 L 300 60 z" />
+</clipPath>
+<clipPath id="svg_arineo_clippath2">
+<rect x="120" y="0" width="200" height="300" />
+</clipPath>
+
+<path stroke="#2E2926" stroke-width="40" fill="none"  
+d="M 90 300 L 200 55 L 310 300" clip-path="url(#svg_arineo_clippath)"/>
+
+<path fill="none" stroke-width="40" stroke="#FFFFFF" 
+d="M 100 110 L 200 210 L 400 0" />
+
+<path stroke="#0088CA" stroke-width="20" fill="none" clip-path="url(#svg_arineo_clippath2)" 
+d="M 100 110 L 200 210 L 400 0"/>
+
+<circle fill="#0088CA" cx="200" cy="155" r="11" />
+
+</svg>

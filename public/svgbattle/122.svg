@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect fill="#173889" width="400" height="300"/>
+
+<defs>
+<rect id="tb" width="45" height="45"/>
+</defs>
+
+<use transform="translate(50,255)" href="#tb" fill="#F8DA37"/>
+<use transform="translate(100,255)" href="#tb" fill="#2CE1EA"/>
+<use transform="translate(150,255)" href="#tb" fill="#2CE1EA"/>
+<use transform="translate(200,255)" href="#tb" fill="#2CE1EA"/>
+<use transform="translate(250,255)" href="#tb" fill="#B069F7"/>
+<use transform="translate(300,255)" href="#tb" fill="#2CE1EA"/>
+
+<use transform="translate(50,204)" href="#tb" fill="#EE4F63"/>
+<use transform="translate(100,204)" href="#tb" fill="#EE4F63"/>
+<use transform="translate(150,204)" href="#tb" fill="#EE4F63"/>
+<use transform="translate(200,204)" href="#tb" fill="#2CE1EA"/>
+<use transform="translate(250,204)" href="#tb" fill="#B069F7"/>
+<use transform="translate(300,204)" href="#tb" fill="#B069F7"/>
+
+<use transform="translate(50,153)" href="#tb" fill="#F8DA37"/>
+<use transform="translate(100,153)" href="#tb" fill="#F8DA37"/>
+<use transform="translate(150,153)" href="#tb" fill="#EE4F63"/>
+<use transform="translate(250,153)" href="#tb" fill="#B069F7"/>
+
+<use transform="translate(50,102)" href="#tb" fill="#F8DA37"/>
+<use transform="translate(100,102)" href="#tb" fill="#F8DA37"/>
+<use transform="translate(200,102)" href="#tb" fill="#EE4F63"/>
+<use transform="translate(200,51)" href="#tb" fill="#EE4F63"/>
+<use transform="translate(250,51)" href="#tb" fill="#EE4F63"/>
+<use transform="translate(250,0)" href="#tb" fill="#EE4F63"/>
+
+</svg>

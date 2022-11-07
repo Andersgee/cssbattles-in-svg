@@ -15,9 +15,9 @@ const Home: NextPage = () => {
       />
       <div className="flex justify-center">
         <div>
-          <div className="mt-32 mb-12 flex justify-center">
+          <div className="mx-4 mt-32 mb-12 flex justify-center">
             <div>
-              <h1 className="text-xl ">CSSbattles written in svg</h1>
+              <h1 className="mb-2 text-2xl">CSSbattles written in svg</h1>
               <p>
                 A fun way to learn svg; writing <a href="https://cssbattle.dev/">CSSBattle</a> by hand in svg.
               </p>

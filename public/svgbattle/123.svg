@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect fill="#C74E4E" width="400" height="300"/>
+
+<defs>
+<rect id="sb" fill="#E0E246" width="20" height="20" rx="5"/>
+</defs>
+
+<use transform="translate(180,100)" href="#sb"/>
+<use transform="translate(205,100)" href="#sb"/>
+<use transform="translate(230,100)" href="#sb"/>
+<use transform="translate(255,100)" href="#sb"/>
+<use transform="translate(280,100)" href="#sb"/>
+
+<use transform="translate(280,125)" href="#sb"/>
+<use transform="translate(280,150)" href="#sb"/>
+<use transform="translate(280,175)" href="#sb"/>
+<use transform="translate(280,200)" href="#sb"/>
+
+<use transform="translate(255,200)" href="#sb"/>
+<use transform="translate(230,200)" href="#sb"/>
+<use transform="translate(205,200)" href="#sb"/>
+<use transform="translate(180,200)" href="#sb"/>
+<use transform="translate(155,200)" href="#sb"/>
+<use transform="translate(130,200)" href="#sb"/>
+<use transform="translate(105,200)" href="#sb"/>
+<use transform="translate(80,200)" href="#sb"/>
+
+<circle fill="#FFFFFF" cx="90" cy="110" r="10" />
+
+
+</svg>

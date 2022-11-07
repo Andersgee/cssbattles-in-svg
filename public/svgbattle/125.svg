@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect fill="#EFF2F1" width="400" height="300"/>
+
+
+
+<defs>
+<g id="si">
+  <path d="M 20 10 h 50 v 10 h -10 v -20 h -50 v 20 h -10 v -10 z" />
+</g>
+</defs>
+
+<path fill="#1C1C1C" d="M 100 80 h 115 a 50 50 0 0 1 0 100 l 50 100 l 20 10 v 5 h -60 l -55 -115 h -10 v 105 l 20 10 v 5 h -80 l 20 -10 v -190 l -20 -10 z" />
+
+</svg>

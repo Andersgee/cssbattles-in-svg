@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect fill="#071945" width="400" height="300"/>
+
+<defs>
+<g id="si">
+  <path d="M 20 10 h 50 v 10 h -10 v -20 h -50 v 20 h -10 v -10 z" />
+</g>
+</defs>
+
+<use transform="translate(30,40)" fill="#B069F7" href="#si"/>
+<use transform="translate(120,40)" fill="#B069F7" href="#si"/>
+<use transform="translate(210,40)" fill="#B069F7" href="#si"/>
+<use transform="translate(300,40)" fill="#B069F7" href="#si"/>
+<use transform="translate(30,90)" fill="#F8DA37" href="#si"/>
+<use transform="translate(210,90)" fill="#F8DA37" href="#si"/>
+<use transform="translate(300,90)" fill="#F8DA37" href="#si"/>
+
+<path fill="#2CE1EA" d="
+M 195 265
+h 10
+v 15
+l 20 20
+h -50
+l 20 -20
+z
+M 195 205
+h 10
+v 10
+h -10
+z
+M 195 235
+h 10
+v 10
+h -10
+z
+" />
+
+
+</svg>
