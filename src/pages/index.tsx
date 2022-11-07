@@ -1,5 +1,7 @@
 import type { NextPage } from "next";
+import Link from "next/link";
 import { svgs } from "../assets/svgs";
+import { AndyfxLogoAnimated } from "../components/AndyfxLogoAnimated";
 import { Head } from "../components/Head";
 
 const CLICKABLE = [24, 36, 37, 39, 40, 41, 50, 53, 54, 55, 75];
@@ -28,8 +30,9 @@ const Home: NextPage = () => {
               <p>
                 Arguably, you are not meant to write svg images by hand either, but it turns out to be pretty
                 straightforward. In any case: drawing images by writing svg is certainly more pleasant than it is by
-                writing css. Below is a gallery of cssbattles recreated in svg.
+                writing css.
               </p>
+              <p>Below is a gallery of cssbattles recreated in svg.</p>
             </div>
           </div>
 
@@ -53,6 +56,30 @@ const Home: NextPage = () => {
               );
             })}
           </main>
+          {/* Footer */}
+          <footer className="mx-8 mt-12 flex justify-center">
+            <div className="max-w-xl flex-1 md:grid md:grid-cols-2">
+              <div className="flex justify-center md:mt-8">
+                <div>
+                  <h2 className="mb-2 text-center text-2xl font-normal text-neutral-600 dark:text-neutral-300">
+                    About
+                  </h2>
+                  <p className="text-left">
+                    Cssbattles in svg is a small project with the purpose of me learning all the svg commands. If you
+                    are curious you can inspect the html to see how the images are drawn.
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-center">
+                <Link href="https://www.andyfx.net">
+                  <a className="my-16 flex items-center justify-center p-2">
+                    <AndyfxLogoAnimated className="h-16 w-16" />
+                    <h1 className="text-2xl font-thin text-neutral-700 dark:text-neutral-200">Andyfx</h1>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </footer>
         </div>
       </div>
     </>

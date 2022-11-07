@@ -24,7 +24,8 @@
     @apply font-sans text-neutral-600 underline decoration-dotted  hover:text-neutral-500 hover:decoration-solid dark:text-neutral-300 dark:hover:text-neutral-200;
   }
   p {
-    @apply mb-1 max-w-[55ch] font-serif text-base font-normal tracking-tight text-neutral-600 dark:text-neutral-300;
+    @apply mb-1  max-w-[55ch] font-serif font-normal tracking-tight text-neutral-600 dark:text-neutral-300;
+    line-height: 1.45;
     word-spacing: 0.5px;
   }
 }
