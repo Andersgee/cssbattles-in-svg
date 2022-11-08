@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import Link from "next/link";
+//import Link from "next/link";
 import { svgs } from "../assets/svgs";
 import { AndyfxLogoAnimated } from "../components/AndyfxLogoAnimated";
 import { Head } from "../components/Head";
@@ -71,12 +71,10 @@ const Home: NextPage = () => {
                 </div>
               </div>
               <div className="flex justify-center">
-                <Link href="https://www.andyfx.net">
-                  <a className="my-16 flex items-center justify-center p-2">
-                    <AndyfxLogoAnimated className="h-16 w-16" />
-                    <h1 className="text-2xl font-thin text-neutral-700 dark:text-neutral-200">Andyfx</h1>
-                  </a>
-                </Link>
+                <a href="https://www.andyfx.net" className="my-16 flex items-center justify-center p-2">
+                  <AndyfxLogoAnimated className="h-16 w-16" />
+                  <h1 className="text-2xl font-thin text-neutral-700 dark:text-neutral-200">Andyfx</h1>
+                </a>
               </div>
             </div>
           </footer>
